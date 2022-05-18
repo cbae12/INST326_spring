@@ -29,7 +29,7 @@ Once you have those two values, here’s how to apply the Babylonian method:
 
 For example, let’s say you are trying to approximate the square root of 5 to a precision of 0.000001. Let’s use 1 as the initial value of x. The following table shows how we would derive subsequent values of y, ε, and x. Once ε is less than p (in this case, 0.000001, which can also be written 1×10⁻⁶ or (in Python) 1e-6), the value of x should be close enough for our needs.
 
-![Formula](image/Formula.png)
+![Formula](Formula.png)
 
 So, the square root of 5 is approximately 2.23606798 ± 0.000001.
 
