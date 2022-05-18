@@ -42,7 +42,7 @@ Hint: because evaluate() returns a float, your tests should test for values clos
 ## Installing Pytest<br/>
 Before you can run your script, you must have installed Pytest. If you have already installed Pytest, you can skip this section. If you have not yet installed Pytest, do so by typing the following at the terminal (Windows users, replace python3 with python):
 
-*python3 -m pip install --upgrade pip*
+*python3 -m pip install --upgrade pip*<br/>
 *python3 -m pip install --upgrade pytest*
 
 ## Running your test script<br/>

@@ -26,8 +26,8 @@ The following operators are permitted in expressions: +, -, *, /. Assume that ea
 
 ### main() function
 Write a function named main() that takes one argument, a string containing a path to a file of postfix expressions. This function should open the file for reading, iterate over each line in the file, call the evaluate() function to evaluate each expression, and print the result of each expression in the following format:
-*5 4 + = 9.0*
-*9 2 3 - * = -9.0*
+*5 4 + = 9.0*<br/>
+*9 2 3 - * = -9.0*<br/>
 *9 2 3 * - = 3.0*
 
 ## Other instructions

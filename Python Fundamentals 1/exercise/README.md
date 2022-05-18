@@ -53,8 +53,8 @@ The provided template, babylonian.py, provides code that calls your function and
 To run your program within the VS Code built-in terminal, first make sure you have opened (in VS Code) the directory where your program is saved. If necessary, you can go to the VS Code File menu and select "Open…​​" on macOS or "Open Folder…​" on Windows, and navigate to the directory where your program is.
 
 Then, open the VS Code built-in terminal. Type python3 (on macOS) or python (on Windows) followed by a space and the name of your program. Specify a number to approximate the square root of. You may optionally add a degree of precision by adding the parameters -p and some (probably very small) number. Below are some examples of ways to invoke your program:
-*python3 babylonian.py 13*
-*python3 babylonian.py 13 -p 0.0000001*
+*python3 babylonian.py 13*<br/>
+*python3 babylonian.py 13 -p 0.0000001*<br/>
 *python3 babylonian.py 13 -p 1e-20*
 
 **Submitting your code**<br/>
