@@ -1,16 +1,16 @@
 # Exercise: Nearby cities
 ## Table of Contents
 [Problem statement](#problem-statement)<br/>
-[Latitude and longitude](#latitude-and-longitude)<br/>
-[Data file](#data-file)<br/>
-[Template](#template)<br/>
-[Dependencies](#dependencies)<br/>
+&emsp;[Latitude and longitude](#latitude-and-longitude)<br/>
+&emsp;[Data file](#data-file)<br/>
+&emsp;[Template](#template)<br/>
+&emsp;&emsp;[Dependencies](#dependencies)<br/>
 [Instructions](#instructions)<br/>
-[__init__() method](#init-method)<br/>
-[nearest() method](#nearest-method)<br/>
-[Other instructions](#other-instructions)<br/>
-[Length of individual lines of code](#length-of-individual-lines-of-code)<br/>
-[Docstrings](#docstrings)<br/>
+&emsp;[__init__() method](#init-method)<br/>
+&emsp;[nearest() method](#nearest-method)<br/>
+&emsp;[Other instructions](#other-instructions)<br/>
+&emsp;&emsp;[Length of individual lines of code](#length-of-individual-lines-of-code)<br/>
+&emsp;&emsp;[Docstrings](#docstrings)<br/>
 [Running your code](#running-your-code)<br/>
 [Submitting your code](#submitting-your-code)
 
