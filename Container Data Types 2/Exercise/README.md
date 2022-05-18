@@ -28,7 +28,7 @@ The latitude and longitude of many places can be found with a Google search; for
 A sample data file, *city_data.txt*, is provided. Each line in the file contains four tab-separated values: a city name, a latitude, a longitude, and a population. Here are a few lines from the file:
 
 *Marijampolė&emsp;54.55991&emsp;23.35412&emsp;47613*<br/>
-*Lentvaris&emsp;&emsp;&ensp;54.64364&emsp;25.05162&emsp;11588*<br/>
+*Lentvaris&emsp;&emsp;&ensp;&nbsp;54.64364&emsp;25.05162&emsp;11588*<br/>
 *Kybartai&emsp;&emsp;&ensp;&nbsp;54.63858&emsp;22.76316&emsp;6355*
 
 The data in the file comes from the [GeoNames Gazetteer](https://www.geonames.org/), which is licensed under a [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/). Specifically, this data was extracted from the file *cities5000.zip* by removing all fields other than name, latitude, longitude, and population. The file contains cities from around the world with a population of at least 5,000. This data file may be redistributed under the terms of the [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/) as long as the GeoNames Gazetteer is credited and the above changes are described.
