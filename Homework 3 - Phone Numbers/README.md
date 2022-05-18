@@ -90,13 +90,13 @@ This function should take one argument: a string consisting of a path to a UTF-8
 
 The function should read each line from the file and extract the name and the phone number. If the phone number is a valid [NANP phone number](#background), it should construct a tuple consisting of the name (as a string) and the phone number (as an instance of *PhoneNumber*), in that order. The function should return a list of these tuples, sorted in ascending order by phone number (note: sorting in Python is based on the *<* operator, and the *PhoneNumber* class should have defined a behavior for the *<* operator, so you should be able to sort *PhoneNumber* objects). For the example lines above, the result would be
 
-*[*
-&emsp;&emsp;*("Wanda's Vocal Coaching", PhoneNumber('2075279691')),*
-&emsp;&emsp;*('Bernadette Stanley', PhoneNumber('2268506891')),*
-&emsp;&emsp;*('Taste of Mexico Restaurant', PhoneNumber('4189262539')),*
-&emsp;&emsp;*('Hope Tyler', PhoneNumber('5157203628')),*
-&emsp;&emsp;*('Benjamin Sosa', PhoneNumber('8258280003'))*
-*]*
+*[*<br/>
+&emsp;&emsp;*("Wanda's Vocal Coaching", PhoneNumber('2075279691')),*<br/>
+&emsp;&emsp;*('Bernadette Stanley', PhoneNumber('2268506891')),*<br/>
+&emsp;&emsp;*('Taste of Mexico Restaurant', PhoneNumber('4189262539')),*<br/>
+&emsp;&emsp;*('Hope Tyler', PhoneNumber('5157203628')),*<br/>
+&emsp;&emsp;*('Benjamin Sosa', PhoneNumber('8258280003'))*<br/>
+*]*<br/>
 
 Note that Subtraction Consulting is not included in the list because the corresponding phone number is not valid (it contains eleven digits).
 
