@@ -1,4 +1,6 @@
 # Homework: Mortgage Calculator
+<hr/>
+
 ## Table of Contents
 [Instructions](#instructions)<br/>
 &emsp;[get_min_payment()](#getminpayment)<br/>
@@ -7,9 +9,11 @@
 &emsp;[main()](#main)<br/>
 [Running your program](#running-your-program)<br/>
 [Testing](#testing)<br/>
+<hr/>
 
 ## Instructions
 For this homework you will write a script to do some useful calculations for fixed-rate mortgages. Use the provided template (*mortgage.py*) and make sure your file is called *mortgage.py* (if you end up downloading the template more than once, take extra care that the file you submit is not named, for example, mortgage (1).py). At a minimum, your script should contain the functions *get_min_payment()*, *interest_due()*, *remaining_payments()*, and *main()*, each of which is described below. Be sure to include a docstring in each function.
+<hr/>
 
 ### get_min_payment()
 **Parameters**
@@ -87,6 +91,7 @@ Here is an algorithm for simulating payments until the mortgage is paid off:
     * Increase the counter.
 
 - When the balance of the mortgage is no longer positive, the value of the counter is the number of payments required. Return this value.
+<hr/>
 
 ### main()
 **Parameters**
@@ -116,6 +121,7 @@ Here is an algorithm for simulating payments until the mortgage is paid off:
     * Use *remaining_payments()* to figure out the total number of payments required (hint: at the beginning of a mortgage, the balance is equal to the total mortgage amount)
 
     * Display this number to the user (e.g., "If you make payments of $*< target payment >*, you will pay off the mortgage in *< total payments >* payments."; replace the angle brackets with the appropriate values)
+<hr/>
 
 ## Running your program
 Your program is designed to run from the terminal. To run it, open a terminal and ensure you are in the directory where your script is saved.
@@ -128,6 +134,7 @@ The program takes two required command-line arguments: a mortgage amount and an 
 &emsp;*python3 mortgage.py 300000 0.03 -y 15*<br/>
 **With multiple optional parameters**<br/>
 &emsp;*python3 mortgage.py 300000 0.03 -y 15 -p 4000*<br/>
+<hr/>
 
 ## Testing
 You can use the script *test_mortgage.py* to test your solution. Make sure you have Pytest installed (see https://docs.pytest.org/en/latest/getting-started.html#install-pytest) and that your script and *test_mortgage.py* are in the same directory on your computer. Edit line 4 of *test_mortgage.py* so that it contains the name of your script (withou the .py ending).
