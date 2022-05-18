@@ -144,6 +144,6 @@ Then, open the VS Code built-in terminal. Type *python3* (on macOS) or *python* 
 ## Submitting your code
 Upload your *cities.py* script to Gradescope. An autograder script will give you near-instant feedback. If you did not pass all the test cases, you can revise your code and resubmit as many times as you want until the deadline.
 
-[^1]: You can assume that the value comes to you as a float. You don’t have to do anything to convert it to a float; just assume it already is one.
+[^1]: You can assume that the value comes to you as a float. You don’t have to do anything to convert it to a float; just assume it already is one.<br/>
 
 [^2] You can assume that the value comes to you as a float. You don’t have to do anything to convert it to a float; just assume it already is one. You can and should make similar assumptions about other parameters based on the data types specified in the instructions. Also, don’t forget to document the expected data type of each parameter in your docstrings!
