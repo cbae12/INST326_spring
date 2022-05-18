@@ -1,4 +1,12 @@
 # Exercise: Reverse Polish notation
+## Table of Contents
+[Problem statement](#problem-statement)<br/>
+[Background](#background)<br/>
+[Instructions](#instructions)<br/>
+&emsp;[evaluate() function](#evaluate-function)<br/>
+&emsp;[main() function](#main-function)<br/>
+&emsp;[Other instructions](#other-instructions)<br/>
+[Testing your code](#testing-your-code)<br/>
 
 ## Problem Statement
 Using the provided template (rpn.py), write a program that reads postfix notation expressions from a file (one expression per line), parses and evaluates each line, and prints the results. You will write at least two functions: evaluate() and main(), as described below.
@@ -6,7 +14,7 @@ Using the provided template (rpn.py), write a program that reads postfix notatio
 ## Background
 We are used to writing mathematical expressions with operators in between their operands (for example, 5 + 2 or 7 × 4). This is called infix notation. Sometimes infix notation requires parentheses to clarify the order of operations; for example, (6 + 5) × 7.
 
-An alternative way to write math expressions is to place the operators before their operands; for example, + 5 2 or × 7 4. This is called prefix notation or Polish notation (after the nationality of Jan Łukasiewicz, who invented it).[1] If we assume that all operations take a fixed, predetermined number of operands, then we can do away with parentheses. The infix expression (6 + 5) × 7 can be rewritten in prefix notation as × + 6 5 7. The multiplication has to wait until there are two operands available. The addition happens as soon as there are two numbers available to add (6 and 5); then the sum of these two numbers (11) is treated as the first operand of the multiplication operator, and the final number (7) is the second operand.
+An alternative way to write math expressions is to place the operators before their operands; for example, + 5 2 or × 7 4. This is called prefix notation or Polish notation (after the nationality of Jan Łukasiewicz, who invented it).[^1] If we assume that all operations take a fixed, predetermined number of operands, then we can do away with parentheses. The infix expression (6 + 5) × 7 can be rewritten in prefix notation as × + 6 5 7. The multiplication has to wait until there are two operands available. The addition happens as soon as there are two numbers available to add (6 and 5); then the sum of these two numbers (11) is treated as the first operand of the multiplication operator, and the final number (7) is the second operand.
 
 A third way to write math expressions is to place the operators after their operands; for example, 5 2 + or 7 4 ×. This is called postfix notation or reverse Polish notation. Like prefix notation, in postfix notation parentheses are not necessary if all operands take a fixed number of operands. The expression (6 + 5) × 7 can be rewritten in postfix notation as 7 6 5 + ×.
 
@@ -41,3 +49,5 @@ The template is designed to use command-line arguments. To run your program with
 Then, open the VS Code built-in terminal. Type python3 (on macOS) or python (on Windows) followed by a space, the name of your program, another space, and the name of a file containing postfix expressions. Below is an example:
 
 *python3 rpn.py postfix_expressions.txt*
+
+[^1]: <link href=https://en.wikipedia.org/wiki/Polish_notation>https://en.wikipedia.org/wiki/Polish_notation<link/>
