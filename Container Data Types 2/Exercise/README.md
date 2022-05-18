@@ -1,4 +1,18 @@
 # Exercise: Nearby cities
+## Table of Contents
+[Problem statement](#problem-statement)
+[Latitude and longitude](#latitude-and-longitude)
+[Data file](#data-file)
+[Template](#template)
+[Dependencies](#dependencies)
+[Instructions](#instructions)
+[__init__() method](#init-method)
+[nearest() method](#nearest-method)
+[Other instructions](#other-instructions)
+[Length of individual lines of code](#length-of-individual-lines-of-code)
+[Docstrings](#docstrings)
+[Running your code](#running-your-code)
+[Submitting your code](#submitting-your-code)
 ## Problem statement
 For this exercise you will develop a *Cities* class that will read location and population data about a number of cities from a text file. Your class will be able to take a reference point (expressed in latitude and longitude) and optionally a minimum population and a maximum number of results and find the closest cities to that reference point.
 
