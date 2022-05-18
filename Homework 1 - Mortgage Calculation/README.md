@@ -122,11 +122,11 @@ Your program is designed to run from the terminal. To run it, open a terminal an
 
 The program takes two required command-line arguments: a mortgage amount and an interest rate (expressed as a float between 0 and 1). It also allows the following optional arguments: *-y* (the term of the mortgage in years), *-n* (the number of annual payments), and *-p* (the target payment). Below are some examples of how to use the program. The examples assume you are using macOS and your program is called *mortgage.py*. If you are using Windows, replace *python3* with *python*.
 
-**Basic usage**
+**Basic usage**<br/>
 &emsp;*python3 mortgage.py 300000 0.03*<br/>
-**With one optional parameter**
+**With one optional parameter**<br/>
 &emsp;*python3 mortgage.py 300000 0.03 -y 15*<br/>
-**With multiple optional parameters**
+**With multiple optional parameters**<br/>
 &emsp;*python3 mortgage.py 300000 0.03 -y 15 -p 4000*<br/>
 
 ## Testing
