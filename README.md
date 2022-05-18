@@ -45,7 +45,7 @@ After finishing this course, students will be able to:
 
 ## Concepts
 1. Python Fundamentals 1
-&emsp;<details>
+<details>
 &emsp;<summary>Includes</summary>
 - Statements, Expressions, Variables, Conditionals, Loops, Functions, Exceptions
 </details>
