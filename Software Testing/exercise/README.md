@@ -1,4 +1,10 @@
 # Exercise: Testing reverse Polish notation
+## Table of Contents
+[Problem statement](#problem-statementbr)<br/>
+[Background](#backgroundbr)<br/>
+[Instructions](#instructionsbr)<br/>
+[Installing Pytest](#installing-pytestbr)<br/>
+[Running your test script](#running-your-test-scriptbr)
 
 ## Problem statement<br/>
 Write a Pytest test script that imports and tests the evaluate() function of the reverse Polish notation program you wrote last week.
@@ -42,14 +48,14 @@ Hint: because evaluate() returns a float, your tests should test for values clos
 ## Installing Pytest<br/>
 Before you can run your script, you must have installed Pytest. If you have already installed Pytest, you can skip this section. If you have not yet installed Pytest, do so by typing the following at the terminal (Windows users, replace python3 with python):
 
-*python3 -m pip install --upgrade pip*<br/>
-*python3 -m pip install --upgrade pytest*
+&emsp;*python3 -m pip install --upgrade pip*<br/>
+&emsp;*python3 -m pip install --upgrade pytest*
 
 ## Running your test script<br/>
 Your test script should be saved in the same directory as the solution to the reverse Polish notation script. Ensure that VS Code is opened to that directory. Then open the terminal by pressing Ctrl+` or going to the View menu and selecting Terminal. The following example shows how to run your test script, assuming it is called test_rpn.py (if your script has some other name, please rename it).
 
-*pytest test_rpn.py*
+&emsp;*pytest test_rpn.py*
 
 If that doesn’t work, try the following (Windows users, replace python3 with python):
 
-*python3 -m pytest test_rpn.py*
+&emsp;*python3 -m pytest test_rpn.py*
