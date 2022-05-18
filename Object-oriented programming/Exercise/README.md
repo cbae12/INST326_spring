@@ -117,5 +117,5 @@ Two car objects appear as circles with arrows in the middle. By default, the car
 
 <details>
 <summary>Chart</summary>
-[Image](Chart.png)
+<img src=Chart.png>
 </details>
