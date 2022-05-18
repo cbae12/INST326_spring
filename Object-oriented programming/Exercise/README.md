@@ -12,7 +12,10 @@ For this exercise, you will need to use three trigonometry-related functions fro
 
 We will use these functions to convert movement along some heading to x and y coordinates. If you think of the heading as an angle and the distance traveled as the hypoteneuse of a triangle whose other two sides are parallel to the x and y axes of a coordinate system, then the lengths of those other two sides tell us how far the car has traveled in terms of x, y coordinates. By adding those distances to the car’s starting coordinate, we can determine the car’s ending coordinate.
 
-[Click here for more information.](Image.png)
+<details>
+<summary>Click here for more information.</summary>
+<img src=Image.png width=500>
+</details>
 
 ## Instructions
 Create a Python script from scratch (there is no template). Save the script as car.py. Follow the instructions below to populate this script.
