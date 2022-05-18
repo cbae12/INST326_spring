@@ -45,63 +45,73 @@ After finishing this course, students will be able to:
 
 ## Concepts
 1. Python Fundamentals 1
-&emsp;<details><summary>Includes</summary>
+<details>
+&emsp;<summary>Includes</summary>
 - Statements, Expressions, Variables, Conditionals, Loops, Functions, Exceptions
 </details>
 
 2. Python Fundamentals 2
-&emsp;<details><summary>Includes</summary>
+<details>
+<summary>Includes</summary>
 - Strings, Lists, for loops, Files, with statements / context managers
 </details>
 
 3. Software Testing
-&emsp;<details><summary>Includes</summary>
+<details>
+<summary>Includes</summary>
 - Happy path, Edge cases, assert statements, importing modules, Scripts as modules, Pytest
 </details>
 
 4. Object-Oriented Programming
-&emsp;<details>
+<details>
 <summary>Includes</summary>
 - Objects & classes, Methods, __init__() method, docstrings
 </details>
 
 5. Container Data Types 1
-&emsp;<details><summary>Includes</summary>
+<details>
+<summary>Includes</summary>
 - Characteristics of containers, Tuples, Dictionaries, Sets & Frozensets, Application
 </details>
 
 6. Container Data Types 2
-&emsp;<details><summary>Includes</summary>
+<details>
+<summary>Includes</summary>
 - Sorting, Custom Key functions, min() and max(), List comprehensions, Filtering in list comprehensions, Generator expressions
 </details>
 
 7. Inheritance & Composition
-&emsp;<details><summary>Includes</summary>
+<details>
+<summary>Includes</summary>
 - Inheritance, Composition, Overriding methods, super(), Abstract base classes
 </details>
 
 8. Collaborative Programming
-&emsp;<details><summary>Includes</summary>
+<details>
+<summary>Includes</summary>
 - Git, Github, Waterfall vs. Agile, Scrum methodology, Kanban
 </details>
 
 9. Regular Expressions
-&emsp;<details><summary>Includes</summary>
+<details>
+<summary>Includes</summary>
 - Regular Expressions, Character classes, Word and string boundaries, Leveraging natural structure in data, Flags, Treating syntax characters literally, Using Regular Expressions in Python, re module (re.search(), re.findall(), re.finditer(), re.sub(), etc.)
 </details>
 
 10. Magic Methods
-&emsp;<details><summary>Includes</summary>
+<details>
+<summary>Includes</summary>
 - Magic methods, string representations, custom containers, operator behavior, Making instances callable
 </details>
 
 11. Pandas
-&emsp;<details><summary>Includes</summary>
+<details>
+<summary>Includes</summary>
 - Pandas, series objects, DataFrame objects, Advanced filtering, concat() method, merge() method, how parameter of merge(), Adding a column, groupby() method
 </details>
 
 12. Data Visualization
-&emsp;<details>
+<details>
 <summary>Includes</summary>
 - df.plot("DataFrame"), df.bar("DataFrame"), df.hist("DataFrame), etc.
 </details>
@@ -109,17 +119,20 @@ After finishing this course, students will be able to:
 
 ## Homeworks
 1. Homework 1 - Mortgage Calculations<br/>
-&emsp;<details><summary>Includes</summary>
+<details>
+<summary>Includes</summary>
 - Concepts 1 (Python Fundamentals 1) ~ 2 (Python Fundamentals 2)
 </details>
 
 2. Homework 2 - Mancala<br/>
-&emsp;<details><summary>Includes</summary>
+<details>
+<summary>Includes</summary>
 - Concepts 1 (Python Fundamentals 1) ~ 7 (Inheritance & Composition)
 </details>
 
 3. Homework 3 - Phone Numbers<br/>
-&emsp;<details><summary>Includes</summary>
+<details>
+<summary>Includes</summary>
 - Concepts 1 (Python Fundamentals 1) ~ 10 (Magic Methods)
 </details>
 <hr/>
