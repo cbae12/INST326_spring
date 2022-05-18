@@ -31,3 +31,22 @@ After finishing this course, students will be able to:
 - JupyterLab
 - Git
 - GitHub
+
+# Lessons Included
+1. Python Fundamentals 1
+2. Python Fundamentals 2
+3. Software Testing
+4. Object-Oriented Programming
+5. Container Data Types 1
+6. Container Data Types 2
+7. Inheritance & Composition
+8. Collaborative Programming
+9. Regular Expressions
+10. Magic Methods
+11. Pandas
+12. Data Visualization
+
+# Homeworks
+1. Homework 1 - Mortgage Calculations
+2. Homework 2 - Mancala
+3. Homework 3 - Phone Numbers
