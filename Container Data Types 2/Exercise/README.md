@@ -42,7 +42,7 @@ Using the provided template, write a class called *Cities*. Your class should go
 
 Be sure to save your script using the name *cities.py*.
 
-The following information may help you write your class docstring. Your class should have one attribute, named *cities*. (This attribute gets created in your* __init__()* method.) The attribute is a list of dictionaries, where each dictionary has the following key/value pairs:
+The following information may help you write your class docstring. Your class should have one attribute, named *cities*. (This attribute gets created in your *__init__()* method.) The attribute is a list of dictionaries, where each dictionary has the following key/value pairs:
 - "name": a string containing the name of the city in English
 
 - "lat": a float representing the latitude of the city in decimal degrees
