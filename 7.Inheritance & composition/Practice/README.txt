@@ -1,0 +1,4 @@
+- Explain inheritance in your own words.
+- Provide an original example demonstrating inheritance.
+- Explain composition in your own words.
+- Provide an original example demonstrating composition.

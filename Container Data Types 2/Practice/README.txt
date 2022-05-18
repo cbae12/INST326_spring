@@ -1,2 +1,0 @@
-- Explain lambda expressions in your own words, including how they can be used as key functions for sorting. Provide an original example in which you sort a list with a lambda expression as a key function.
-- Explain list comprehensions in your own words. Provide an original example of a list comprehension.

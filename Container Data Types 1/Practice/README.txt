@@ -1,8 +1,0 @@
-- explain sequence unpacking in your own words and provide a clear, working original example of it
-- document the syntax for adding a key/value pair to a dictionary; provide an original example that demonstrates how to do this
-- document the syntax for using a key to retrieve a value from a dictionary; provide an original example that demonstrates how to do this
-- choose just one of the following set operations, briefly explain it, and provide an original example that demonstrates the operation:
-	- union
-	- intersection
-	- difference
-	- symmetric difference
