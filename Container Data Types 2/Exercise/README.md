@@ -54,14 +54,14 @@ The following information may help you write your class docstring. Your class sh
 The following example may give you an idea of how this list of dictionaries is structured:
 
 *[*<br/>
-    &emsp;*...*<br/>
-    &emsp;*{"name": "Marijampolė", "lat": 54.55991, "lon": 23.35412,
-    &emsp;*<br/> *"pop": 47613},*<br/>
-    &emsp;*{"name": "Lentvaris",   "lat": 54.64364, "lon": 25.05162,
-    &emsp;*<br/> *"pop": 11588},*<br/>
-    &emsp;*{"name": "Kybartai",    "lat": 54.63858, "lon": 22.76316,
-    &emsp;*<br/> *"pop": 6355},*<br/>
-    &emsp;*...*<br/>
+    &emsp;&emsp;*...*<br/>
+    &emsp;&emsp;*{"name": "Marijampolė", "lat": 54.55991, "lon": 23.35412,
+    &emsp;&emsp;*<br/> *"pop": 47613},*<br/>
+    &emsp;&emsp;*{"name": "Lentvaris",   "lat": 54.64364, "lon": 25.05162,
+    &emsp;&emsp;*<br/> *"pop": 11588},*<br/>
+    &emsp;&emsp;*{"name": "Kybartai",    "lat": 54.63858, "lon": 22.76316,
+    &emsp;&emsp;*<br/> *"pop": 6355},*<br/>
+    &emsp;&emsp;*...*<br/>
 *]*
 
 ### *__init__()* method
