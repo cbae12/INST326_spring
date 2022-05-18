@@ -20,13 +20,13 @@ We will use these functions to convert movement along some heading to x and y co
 ## Instructions
 Create a Python script from scratch (there is no template). Save the script as car.py. Follow the instructions below to populate this script.
 
-**import statement**<br/>
+### import statement
 Either import the entire math module, or just the following functions from that module: cos, radians, sin.
 
-**Car class**<br/>
+### Car class
 Create a class called Car. Define the following methods:
 
-**__init__() method**<br/>
+### __init__() method
 Define a method called __init__() (note the double underscores). Your method should have one required parameter (self) and three optional parameters as follows (please use these exact names):
 
 - x: the starting x coordinate of the car, as a float.[1] Default: 0.
@@ -37,7 +37,7 @@ Define a method called __init__() (note the double underscores). Your method sho
 
 Your __init__() method should set three attributes (x, y, and heading) to the values of their corresponding parameters.
 
-**turn() method**<br/>
+### turn() method
 Define a method called turn() that has two required parameters, self and a number of degrees expressed as a float.[2] A positive number of degrees indicates a clockwise turn; a negative number of degrees indicates a counterclockwise turn. Use the following steps to assign a new value to the heading attribute (these can be combined into a single expression):
 
 1. Add the specified number of degrees to the previous value of 
@@ -48,7 +48,7 @@ Define a method called turn() that has two required parameters, self and a numbe
 
 For example, if heading is 270 and the number of degrees is 100, the turn() method should set heading to (270 + 100) mod 360, which is 10.
 
-**drive() method**<br/>
+### drive() method
 Define a method called drive() that has two required parameters, self and a distance expressed as a float.
 
 In the formulas below, d is the distance; h is the heading in radians (you will need to convert the heading from degrees to radians).
@@ -57,7 +57,7 @@ Update the x attribute by adding dsin(h) to the attribute’s current value. (Hi
 
 Update the y attribute by subtracting dcos(h) from the attribute’s current value. (Hint: the -= operator is your friend).
 
-**sanity_check() function**<br/>
+### sanity_check() function
 Define a sanity_check() function that takes no arguments. This function should not be part of the Car class—​please de-indent the function header so it is aligned with the header of the Car class.
 
 In this function, create an instance of the Car class. Have your instance follow these steps:
@@ -75,7 +75,7 @@ Print the location of your instance on one line and the heading on the next line
 *Heading: 75*
 At the end of your function, return the instance you created.
 
-**if __name__ == "__main__": statement**
+### if __name__ == "__main__": statement
 At the end of your code, write an if __name__ == "__main__": statement that invokes your sanity_check() function.
 
 ## Other instructions
