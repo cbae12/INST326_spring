@@ -1,5 +1,19 @@
 # Exercise Car class
-
+## Table of Contents
+[Problem statement](#problem-statement)<br/>
+[Background: some trigonometry and geometry](#background-some-trigonometry-and-geometry)<br/>
+[Instructions](#instructions)<br/>
+&emsp;[import statement](#import-statement)<br/>
+&emsp;[Car class](#car-class)<br/>
+&emsp;&emsp;[__init__() method](#init-method)<br/>
+&emsp;&emsp;[turn() method](#turn-method)<br/>
+&emsp;&emsp;[drive() method](#drive-method)<br/>
+&emsp;[sanity_check() function](#sanitycheck-function)<br/>
+&emsp;[if __name__ == "__main__": statement](#if-name--"main"-statement)<br/>
+&emsp;[Other instructions](#other-instructions)<br/>
+[Submitting your code](#submitting-your-code)<br/>
+[Testing your code](#testing-your-code)<br/>
+&emsp;[driving_range.py](#drivingrangepy)
 ## Problem statement
 For this exercise you will develop a Python module containing a Car class. Instances of the class will be able to turn and drive forward. They will have three attributes: x (an x coordinate), y (a y coordinate) and heading (a direction the car will drive, in degrees; for this assignment, a heading of 0 indicates due north, a heading of 90 is due east, etc.). They will have three methods: __init__(), turn(), and drive().
 
@@ -8,7 +22,7 @@ You will also write a sanity_check() function outside of the class that instanti
 ## Background: some trigonometry and geometry
 For this exercise, you will need to use three trigonometry-related functions from the math module. sin() and cos() compute the sine and cosine, respectively, of a specified angle in radians. radians() converts a measurement in degrees to radians. So, for example, if you wanted to find the cosine of 30 degrees, here’s how you could calculate it with these functions:
 
-*cos(radians(30))*
+&emsp;*cos(radians(30))*
 
 We will use these functions to convert movement along some heading to x and y coordinates. If you think of the heading as an angle and the distance traveled as the hypoteneuse of a triangle whose other two sides are parallel to the x and y axes of a coordinate system, then the lengths of those other two sides tell us how far the car has traveled in terms of x, y coordinates. By adding those distances to the car’s starting coordinate, we can determine the car’s ending coordinate.
 
@@ -29,7 +43,7 @@ Create a class called Car. Define the following methods:
 ### __init__() method
 Define a method called __init__() (note the double underscores). Your method should have one required parameter (self) and three optional parameters as follows (please use these exact names):
 
-- x: the starting x coordinate of the car, as a float.[1] Default: 0.
+- x: the starting x coordinate of the car, as a float.[^1] Default: 0.
 
 - y: the starting y coordinate of the car, as a float. Default: 0.
 
@@ -38,7 +52,7 @@ Define a method called __init__() (note the double underscores). Your method sho
 Your __init__() method should set three attributes (x, y, and heading) to the values of their corresponding parameters.
 
 ### turn() method
-Define a method called turn() that has two required parameters, self and a number of degrees expressed as a float.[2] A positive number of degrees indicates a clockwise turn; a negative number of degrees indicates a counterclockwise turn. Use the following steps to assign a new value to the heading attribute (these can be combined into a single expression):
+Define a method called turn() that has two required parameters, self and a number of degrees expressed as a float.[^2] A positive number of degrees indicates a clockwise turn; a negative number of degrees indicates a counterclockwise turn. Use the following steps to assign a new value to the heading attribute (these can be combined into a single expression):
 
 1. Add the specified number of degrees to the previous value of 
    heading.
@@ -71,8 +85,10 @@ In this function, create an instance of the Car class. Have your instance follow
 - Drive 20 units.
 
 Print the location of your instance on one line and the heading on the next line, in the following format:
-*Location: 41.34235262, 17.999999999*
-*Heading: 75*
+
+&emsp;*Location: 41.34235262, 17.999999999*<br/>
+&emsp;*Heading: 75*
+
 At the end of your function, return the instance you created.
 
 ### if __name__ == "__main__": statement
@@ -114,7 +130,7 @@ driving_range.py requires the Tkinter module. If you installed Python 3.9 from P
 
 To use driving_range.py, ensure that it is in the same directory as car.py. Then, open the VS Code built-in terminal and type python3 (on macOS) or python (on Windows) followed by a space and the name of the program. Below is an example:
 
-*python3 driving_range.py*
+&emsp;*python3 driving_range.py*
 
 Two car objects appear as circles with arrows in the middle. By default, the cars are "self-driving". You can control them in both self-driving mode and regular mode. Here are the keys you can use to control the cars:
 
@@ -122,3 +138,6 @@ Two car objects appear as circles with arrows in the middle. By default, the car
 <summary>Chart</summary>
 <img src=Chart.png width=500>
 </details>
+
+[^1]: In other words, you can assume that the value of this parameter will be a float.
+[^2]: In other words, you can assume that the value of this parameter will be a float.
