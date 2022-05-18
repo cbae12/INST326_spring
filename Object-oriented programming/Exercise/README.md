@@ -14,7 +14,7 @@ We will use these functions to convert movement along some heading to x and y co
 
 <details>
 <summary>Click here for more information.</summary>
-<img src=Image.png width=500>
+<img src=Image.png width=750>
 </details>
 
 ## Instructions
