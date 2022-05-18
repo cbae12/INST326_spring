@@ -69,7 +69,7 @@ Define a method called *__init__()* (note the double underscores). Your method s
 
 - *self*
 
-- a path to a file containing city data (a string[1]; for a description of the format of the data in this file, see the [Data file](#data-file)
+- a path to a file containing city data (a string[^1]; for a description of the format of the data in this file, see the [Data file](#data-file)
 
 This method will create and populate the attribute *self.cities* using the data in the file that was specified in the second parameter of the method (please don’t hard-code the name of the data file anywhere in your program!). See the [Instructions](#instructions) section for a description of the format of *self.cities*.
 
@@ -78,7 +78,7 @@ Define a method called *nearest()*. Your method should have three required param
 
 - *self*
 
-- a latitude in decimal degrees (a float[2])
+- a latitude in decimal degrees (a float[^2])
 
 - a longitude in decimal degrees (a float)
 
