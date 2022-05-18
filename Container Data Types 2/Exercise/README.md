@@ -49,8 +49,8 @@ A program template, cities.py, is provided. The template imports a number of fun
 #### Dependencies
 The template depends on the *haversine* and *vincenty* modules, which you’ll need to install. To install them, type the following in the VS Code terminal (Windows users, replace *python3* with *python*):
 
-*python3 -m pip install --upgrade pip*<br/>
-*python3 -m pip install haversine vincenty*
+&emsp;*python3 -m pip install --upgrade pip*<br/>
+&emsp;*python3 -m pip install haversine vincenty*
 
 ## Instructions
 Using the provided template, write a class called *Cities*. Your class should go after the import statements and before the get_dist() function. Follow the instructions below to implement your class.
@@ -151,10 +151,10 @@ Once the dependencies have been installed, to run your program within the VS Cod
 
 Then, open the VS Code built-in terminal. Type *python3* (on macOS) or *python* (on Windows) followed by a space and the name of your program. Specify values for the name of the data file, a latitude, and a longitude, all separated by spaces. You may optionally specify a minimum population by typing -p and an integer, and/or a maximum number of results by typing -n and an integer. Below are some examples of ways to invoke your program:
 
-*python3 cities.py city_data.txt 38.9897 -76.9378*<br/>
-*python3 cities.py city_data.txt 38.9897 -76.9378 -p 50_000*<br/>
-*python3 cities.py city_data.txt 38.9897 -76.9378 -n 5*<br/>
-*python3 cities.py city_data.txt 38.9897 -76.9378 -p 50_000 -n 5*
+&emsp;*python3 cities.py city_data.txt 38.9897 -76.9378*<br/>
+&emsp;*python3 cities.py city_data.txt 38.9897 -76.9378 -p 50_000*<br/>
+&emsp;*python3 cities.py city_data.txt 38.9897 -76.9378 -n 5*<br/>
+&emsp;*python3 cities.py city_data.txt 38.9897 -76.9378 -p 50_000 -n 5*
 
 ## Submitting your code
 Upload your *cities.py* script to Gradescope. An autograder script will give you near-instant feedback. If you did not pass all the test cases, you can revise your code and resubmit as many times as you want until the deadline.
