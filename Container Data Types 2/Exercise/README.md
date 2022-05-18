@@ -12,8 +12,8 @@ The latitude and longitude of many places can be found with a Google search; for
 ### Data file
 A sample data file, *city_data.txt*, is provided. Each line in the file contains four tab-separated values: a city name, a latitude, a longitude, and a population. Here are a few lines from the file:
 
-*Marijampolė	54.55991	23.35412	47613*
-*Lentvaris	54.64364	25.05162	11588*
+*Marijampolė	54.55991	23.35412	47613*<br/>
+*Lentvaris	54.64364	25.05162	11588*<br/>
 *Kybartai	54.63858	22.76316	6355*
 
 The data in the file comes from the [GeoNames Gazetteer](https://www.geonames.org/), which is licensed under a [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/). Specifically, this data was extracted from the file *cities5000.zip* by removing all fields other than name, latitude, longitude, and population. The file contains cities from around the world with a population of at least 5,000. This data file may be redistributed under the terms of the [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/) as long as the GeoNames Gazetteer is credited and the above changes are described.
@@ -34,7 +34,7 @@ A program template, cities.py, is provided. The template imports a number of fun
 #### Dependencies
 The template depends on the *haversine* and *vincenty* modules, which you’ll need to install. To install them, type the following in the VS Code terminal (Windows users, replace *python3* with *python*):
 
-*python3 -m pip install --upgrade pip*
+*python3 -m pip install --upgrade pip*<br/>
 *python3 -m pip install haversine vincenty*
 
 ## Instructions
@@ -53,12 +53,12 @@ The following information may help you write your class docstring. Your class sh
 
 The following example may give you an idea of how this list of dictionaries is structured:
 
-*[*
-    *...*
-    *{"name": "Marijampolė", "lat": 54.55991, "lon": 23.35412,* *"pop": 47613},*
-    *{"name": "Lentvaris",   "lat": 54.64364, "lon": 25.05162,* *"pop": 11588},*
-    *{"name": "Kybartai",    "lat": 54.63858, "lon": 22.76316,* *"pop": 6355},*
-    *...*
+*[*<br/>
+    *...*<br/>
+    *{"name": "Marijampolė", "lat": 54.55991, "lon": 23.35412,*<br/> *"pop": 47613},*<br/>
+    *{"name": "Lentvaris",   "lat": 54.64364, "lon": 25.05162,*<br/> *"pop": 11588},*<br/>
+    *{"name": "Kybartai",    "lat": 54.63858, "lon": 22.76316,*<br/> *"pop": 6355},*<br/>
+    *...*<br/>
 *]*
 
 ### *__init__()* method
@@ -133,9 +133,9 @@ Once the dependencies have been installed, to run your program within the VS Cod
 
 Then, open the VS Code built-in terminal. Type *python3* (on macOS) or *python* (on Windows) followed by a space and the name of your program. Specify values for the name of the data file, a latitude, and a longitude, all separated by spaces. You may optionally specify a minimum population by typing -p and an integer, and/or a maximum number of results by typing -n and an integer. Below are some examples of ways to invoke your program:
 
-*python3 cities.py city_data.txt 38.9897 -76.9378*
-*python3 cities.py city_data.txt 38.9897 -76.9378 -p 50_000*
-*python3 cities.py city_data.txt 38.9897 -76.9378 -n 5*
+*python3 cities.py city_data.txt 38.9897 -76.9378*<br/>
+*python3 cities.py city_data.txt 38.9897 -76.9378 -p 50_000*<br/>
+*python3 cities.py city_data.txt 38.9897 -76.9378 -n 5*<br/>
 *python3 cities.py city_data.txt 38.9897 -76.9378 -p 50_000 -n 5*
 
 ## Submitting your code
