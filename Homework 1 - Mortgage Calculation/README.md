@@ -13,7 +13,6 @@
 
 ## Instructions
 For this homework you will write a script to do some useful calculations for fixed-rate mortgages. Use the provided template (*mortgage.py*) and make sure your file is called *mortgage.py* (if you end up downloading the template more than once, take extra care that the file you submit is not named, for example, mortgage (1).py). At a minimum, your script should contain the functions *get_min_payment()*, *interest_due()*, *remaining_payments()*, and *main()*, each of which is described below. Be sure to include a docstring in each function.
-<hr/>
 
 ### get_min_payment()
 **Parameters**
@@ -91,7 +90,6 @@ Here is an algorithm for simulating payments until the mortgage is paid off:
     * Increase the counter.
 
 - When the balance of the mortgage is no longer positive, the value of the counter is the number of payments required. Return this value.
-<hr/>
 
 ### main()
 **Parameters**
@@ -142,3 +140,4 @@ You can use the script *test_mortgage.py* to test your solution. Make sure you h
 To use the test script, open a terminal and navigate to the directory containing your script and *test_mortgage.py*. Then type the following at the command prompt:
 
 &emsp;*pytest test_mortgage.py*
+<hr/>

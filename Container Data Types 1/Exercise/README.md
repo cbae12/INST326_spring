@@ -1,13 +1,30 @@
 # Exercise: Word game
+<hr/>
+
+## Table of Contents
+[Background](#background)<br/>
+&emsp;[Example](#example)<br/>
+[Problem statement](#problem-statement)<br/>
+[Instructions](#instructions)<br/>
+&emsp;[PlayerWords class](#playerwords-class)<br/>
+&emsp;&emsp;[__init__() method](#init-method)<br/>
+&emsp;&emsp;[score() method](#score-method)<br/>
+&emsp;[main() function](#main-function)<br/>
+&emsp;[Other instructions](#other-instructions)<br/>
+[Submitting your code](#submitting-your-code)<br/>
+[Testing your code](#testing-your-code)<br/>
+<hr/>
 
 ## Background
 Imagine a game where two players are presented with a matrix of letters. They must independently find words within those letters within a certain time limit. Once time has expired, each player removes duplicate words from the list of words they found, and the two players compare lists. Only words found by both players that are at least three letters long are worth points. A word is worth the number of letters it contains minus 2.
 
 ### Example
 Tyrone and Alice play the game. Tyrone’s list contains the words "apple", "app", "pal", "leap", "a", and "app". Alice’s list contains the words "pale", "pal", "a", "leap", and "parlor". Tyrone realizes he listed "app" twice and crosses the second instance of this word off his list. Tyrone and Alice compare notes; they have both found "pal", "leap", and "a". "pal" is worth one point, "leap" is worth two points, and "a" is not worth any points. Their total score is 3.
+<hr/>
 
 ## Problem Statement
 For this exercise you will develop a PlayerWords class capable of reading in words from a file and calculating two players' score for the fictional word game described above. You will also write a main() function outside that class that will create two instances of the class (one for each partner on a team), compute the team’s score, and print it to the console.
+<hr/>
 
 ## Instructions
 Use the provided template, *word_game.py*. Ensure that your program is called *word_game.py*.
@@ -56,15 +73,18 @@ Create one instance of your *PlayerWords* class for each player. Using one of th
 Docstrings were covered in the lectures here: https://youtu.be/jHTv83PlQYw?t=1415. There’s an ELMS page about them here: https://umd.instructure.com/courses/1312228/pages/docstrings.
 
 - Please keep your lines of code to 80 characters or less. If you need help breaking up long lines of code, please see https://umd.instructure.com/courses/1312228/pages/how-to-break-up-long-lines-of-code.
+<hr/>
 
 ## Submitting your code
 Upload your *word_game.py* file to Gradescope. An autograder script will give you (near-)instant feedback. If you did not pass all the test cases, you can revise your code and resubmit as many times as you want until the deadline.
 
 If you and your partner(s) finish in class, please make a single submission; the submitter should add their partner(s) as group members. If you do not finish in class, the driver should send a copy of the unfinished program to the navigator(s) and each person should finish and submit the assignment on their own.
+<hr/>
 
 ## Testing your code
 To run your program within the VS Code built-in terminal, first make sure you have opened (in VS Code) the directory where your program is saved. If necessary, you can go to the VS Code File menu and select "Open…​​" on macOS or "Open Folder…​" on Windows, and navigate to the directory where your program is.
 
 Then, open the VS Code built-in terminal. Type *python3* (on macOS) or *python* (on Windows) followed by a space and the name of your program. The program expects two command-line arguments, one for each player’s word list. Sample word lists (*player1_words.txt* and *player2_words.txt*) were provided. Below is an example of how to run the program:
 
-*python3 word_game.py player1_words.txt player2_words.txt*
+&emsp;*python3 word_game.py player1_words.txt player2_words.txt*
+<hr/>

@@ -1,4 +1,6 @@
 # Exercise: Nearby cities
+<hr/>
+
 ## Table of Contents
 [Problem statement](#problem-statement)<br/>
 &emsp;[Latitude and longitude](#latitude-and-longitude)<br/>
@@ -13,6 +15,7 @@
 &emsp;&emsp;[Docstrings](#docstrings)<br/>
 [Running your code](#running-your-code)<br/>
 [Submitting your code](#submitting-your-code)
+<hr/>
 
 ## Problem statement
 For this exercise you will develop a *Cities* class that will read location and population data about a number of cities from a text file. Your class will be able to take a reference point (expressed in latitude and longitude) and optionally a minimum population and a maximum number of results and find the closest cities to that reference point.
@@ -51,6 +54,7 @@ The template depends on the *haversine* and *vincenty* modules, which you’ll n
 
 &emsp;*python3 -m pip install --upgrade pip*<br/>
 &emsp;*python3 -m pip install haversine vincenty*
+<hr/>
 
 ## Instructions
 Using the provided template, write a class called *Cities*. Your class should go after the import statements and before the get_dist() function. Follow the instructions below to implement your class.
@@ -143,6 +147,7 @@ Method and function docstrings should
 
 - contain a "Raises:" section that documents any exceptions raised by your method or function and the circumstances under which those exceptions are raised. If your method or function does not contain any *raise* statements, omit this section.
 </details>
+<hr/>
 
 ## Running your code
 The template script has dependenices on the *haversine* and *vincenty* modules. You will need to install these in order to run your program. See the **Dependencies** section for installation instructions.
@@ -155,6 +160,7 @@ Then, open the VS Code built-in terminal. Type *python3* (on macOS) or *python* 
 &emsp;*python3 cities.py city_data.txt 38.9897 -76.9378 -p 50_000*<br/>
 &emsp;*python3 cities.py city_data.txt 38.9897 -76.9378 -n 5*<br/>
 &emsp;*python3 cities.py city_data.txt 38.9897 -76.9378 -p 50_000 -n 5*
+<hr/>
 
 ## Submitting your code
 Upload your *cities.py* script to Gradescope. An autograder script will give you near-instant feedback. If you did not pass all the test cases, you can revise your code and resubmit as many times as you want until the deadline.
@@ -162,3 +168,4 @@ Upload your *cities.py* script to Gradescope. An autograder script will give you
 [^1]: You can assume that the value comes to you as a float. You don’t have to do anything to convert it to a float; just assume it already is one.
 
 [^2]: You can assume that the value comes to you as a float. You don’t have to do anything to convert it to a float; just assume it already is one. You can and should make similar assumptions about other parameters based on the data types specified in the instructions. Also, don’t forget to document the expected data type of each parameter in your docstrings!
+<hr/>

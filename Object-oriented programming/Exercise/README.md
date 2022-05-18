@@ -1,4 +1,6 @@
 # Exercise Car class
+<hr/>
+
 ## Table of Contents
 [Problem statement](#problem-statement)<br/>
 [Background: some trigonometry and geometry](#background-some-trigonometry-and-geometry)<br/>
@@ -13,11 +15,14 @@
 &emsp;[Other instructions](#other-instructions)<br/>
 [Submitting your code](#submitting-your-code)<br/>
 [Testing your code](#testing-your-code)<br/>
-&emsp;[driving_range.py](#drivingrangepy)
+&emsp;[driving_range.py](#drivingrangepy)<br/>
+<hr/>
+
 ## Problem statement
 For this exercise you will develop a Python module containing a Car class. Instances of the class will be able to turn and drive forward. They will have three attributes: x (an x coordinate), y (a y coordinate) and heading (a direction the car will drive, in degrees; for this assignment, a heading of 0 indicates due north, a heading of 90 is due east, etc.). They will have three methods: __init__(), turn(), and drive().
 
 You will also write a sanity_check() function outside of the class that instantiates the class, invokes the methods, and prints the attributes.
+<hr/>
 
 ## Background: some trigonometry and geometry
 For this exercise, you will need to use three trigonometry-related functions from the math module. sin() and cos() compute the sine and cosine, respectively, of a specified angle in radians. radians() converts a measurement in degrees to radians. So, for example, if you wanted to find the cosine of 30 degrees, here’s how you could calculate it with these functions:
@@ -30,6 +35,7 @@ We will use these functions to convert movement along some heading to x and y co
 <summary>Click here for more information.</summary>
 <img src=Image.png width=750>
 </details>
+<hr/>
 
 ## Instructions
 Create a Python script from scratch (there is no template). Save the script as car.py. Follow the instructions below to populate this script.
@@ -93,6 +99,7 @@ At the end of your function, return the instance you created.
 
 ### if __name__ == "__main__": statement
 At the end of your code, write an if __name__ == "__main__": statement that invokes your sanity_check() function.
+<hr/>
 
 ## Other instructions
 - Please write docstrings for your class, each of your methods, and your function.
@@ -110,12 +117,14 @@ At the end of your code, write an if __name__ == "__main__": statement that invo
 Docstrings were covered in the lectures here: https://youtu.be/jHTv83PlQYw?t=1415. There’s an ELMS page about them here: https://umd.instructure.com/courses/1312228/pages/docstrings.
 
 - Please keep your lines of code to 80 characters or less. If you need help breaking up long lines of code, please see https://umd.instructure.com/courses/1312228/pages/how-to-break-up-long-lines-of-code.
+<hr/>
 
 ## Submitting your code
 
 Upload your car.py class to Gradescope. An autograder script will give you (near-)instant feedback. If you did not pass all the test cases, you can revise your code and resubmit as many times as you want until the deadline.
 
 If you and your partner(s) finish in class, please make a single submission; the submitter should add their partner(s) as group members. If you do not finish in class, the driver should send a copy of the unfinished program to the navigator(s) and each person should finish and submit the assignment on their own.
+<hr/>
 
 ## Testing your code
 To run your program within the VS Code built-in terminal, first make sure you have opened (in VS Code) the directory where your program is saved. If necessary, you can go to the VS Code File menu and select "Open…​​" on macOS or "Open Folder…​" on Windows, and navigate to the directory where your program is.
@@ -141,3 +150,4 @@ Two car objects appear as circles with arrows in the middle. By default, the car
 
 [^1]: In other words, you can assume that the value of this parameter will be a float.
 [^2]: In other words, you can assume that the value of this parameter will be a float.
+<hr/>

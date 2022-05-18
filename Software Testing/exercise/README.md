@@ -1,16 +1,21 @@
 # Exercise: Testing reverse Polish notation
+<hr/>
+
 ## Table of Contents
 [Problem statement](#problem-statement)<br/>
 [Background](#background)<br/>
 [Instructions](#instructions)<br/>
 [Installing Pytest](#installing-pytest)<br/>
 [Running your test script](#running-your-test-script)<br/>
+<hr/>
 
 ## Problem statement
 Write a Pytest test script that imports and tests the evaluate() function of the reverse Polish notation program you wrote last week.
+<hr/>
 
 ## Background
 Last week we wrote a program to interpret expressions in reverse Polish notation. This week we will write unit tests to test the evaluate() function from last week’s program. As a reminder, that function takes one argument (a string containing a postfix expression) and returns the result of the expression as a float.
+<hr/>
 
 ## Instructions
 Please name your script test_rpn.py.
@@ -44,12 +49,14 @@ An expression consisting of three numbers followed by two different operators
 An expression consisting of two numbers, an operator, a third number, and another operator
 
 Hint: because evaluate() returns a float, your tests should test for values close to the expected result (as opposed to values that are exactly equal to the expected result). One way to do this is with math.isclose(); another is with pytest.approx().
+<hr/>
 
 ## Installing Pytest
 Before you can run your script, you must have installed Pytest. If you have already installed Pytest, you can skip this section. If you have not yet installed Pytest, do so by typing the following at the terminal (Windows users, replace python3 with python):
 
 &emsp;*python3 -m pip install --upgrade pip*<br/>
 &emsp;*python3 -m pip install --upgrade pytest*
+<hr/>
 
 ## Running your test script
 Your test script should be saved in the same directory as the solution to the reverse Polish notation script. Ensure that VS Code is opened to that directory. Then open the terminal by pressing Ctrl+` or going to the View menu and selecting Terminal. The following example shows how to run your test script, assuming it is called test_rpn.py (if your script has some other name, please rename it).
@@ -59,3 +66,4 @@ Your test script should be saved in the same directory as the solution to the re
 If that doesn’t work, try the following (Windows users, replace python3 with python):
 
 &emsp;*python3 -m pytest test_rpn.py*
+<hr/>
