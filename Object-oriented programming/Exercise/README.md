@@ -115,4 +115,7 @@ To use driving_range.py, ensure that it is in the same directory as car.py. Then
 
 Two car objects appear as circles with arrows in the middle. By default, the cars are "self-driving". You can control them in both self-driving mode and regular mode. Here are the keys you can use to control the cars:
 
-[Image](Chart.png)
+<details>
+<summary>Chart</summary>
+Chart.png
+</details>
