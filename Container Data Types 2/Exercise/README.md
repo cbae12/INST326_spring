@@ -55,9 +55,12 @@ The following example may give you an idea of how this list of dictionaries is s
 
 *[*<br/>
     *...*<br/>
-    *{"name": "Marijampolė", "lat": 54.55991, "lon": 23.35412,*<br/> *"pop": 47613},*<br/>
-    *{"name": "Lentvaris",   "lat": 54.64364, "lon": 25.05162,*<br/> *"pop": 11588},*<br/>
-    *{"name": "Kybartai",    "lat": 54.63858, "lon": 22.76316,*<br/> *"pop": 6355},*<br/>
+    *{"name": "Marijampolė", "lat": 54.55991, "lon": 23.35412,
+    *<br/> *"pop": 47613},*<br/>
+    *{"name": "Lentvaris",   "lat": 54.64364, "lon": 25.05162,
+    *<br/> *"pop": 11588},*<br/>
+    *{"name": "Kybartai",    "lat": 54.63858, "lon": 22.76316,
+    *<br/> *"pop": 6355},*<br/>
     *...*<br/>
 *]*
 
