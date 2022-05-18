@@ -34,6 +34,7 @@ After finishing this course, students will be able to:
 
 6. Explain how programming is situated in and reflects social 
    issues and concerns around diversity, inclusion, equality and justice, and describe actions that individuals or organizations are taking to counteract disparities and inequalities.
+<hr/>
 
 ## Required Technology
 - Laptop
